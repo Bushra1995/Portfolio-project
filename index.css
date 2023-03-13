@@ -411,11 +411,13 @@ textarea {
 }
 
 .projects__row-img-cont {
+    display: flex;
+    justify-content: center;
     overflow: hidden
 }
 
 .projects__row-img {
-    width: 100%;
+    width: 50%;
     display: block;
     -o-object-fit: cover;
     object-fit: cover
